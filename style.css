@@ -1,0 +1,35 @@
+body{
+    background-color: gray;
+}
+h1{
+    color: rgb(255, 0, 0, 0.5);
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+}
+p{
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    color: rgb(160, 60, 132, 1);
+}
+ol li{
+    font-size: 30px;
+    color: aquamarine;
+}
+ul li{
+    color: green;
+    background-color: azure;
+    text-align: center;
+}
+img{
+    max-width: 40px;
+    max-height: 40px;
+}
+.enviar{
+    background-color: blue;
+    border-radius: 50px;
+}
+.etiqueta{
+    background-color: blueviolet;
+}
