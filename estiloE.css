@@ -1,15 +1,19 @@
 body{
-    background-color: #FFF559;
+    background-color: #e9c497;
 }
 h1{
     text-align: center;
-    color: #DFF6FF;
+    color: #ca42a1;
 }
 h2{
-    color: #DFF6FF;
+    color: #ca42a1;
 }
 .enviar{
     border-radius: 25px;
-    color:#FFF5E9;
-    background-color: #F9FFEC;  
+    color:#1b140b;
+    background-color: #25752e;  
+}
+.etiqueta{
+    background-color: #e42685;
+    color: #ff0000;
 }
