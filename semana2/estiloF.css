@@ -39,6 +39,7 @@ body{
     margin: 5px 0px 5px 0;
 }
 .primary-button{
+    display: flex;
     background-color: var(--purple);
     color: var(--white);
     border: none;
@@ -87,4 +88,13 @@ body{
 .icon-text h2{
     font-size: var(--sm);
     margin: 0;
+}
+@media(max-width: 720px){
+    .icons-container{
+        grid-template-columns:repeat(1,1fr);
+        margin: 50px 10px 50px 10px;
+    }
+    .subtitle{
+        font-size: 0px;
+    }
 }
