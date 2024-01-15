@@ -3,8 +3,8 @@
     --gray: #DCDCE5;
 }
 button{
-    width: 300px;
-    height: 80px;
+    width: 120px;
+    height: 120px;
     font-family: Roboto,sans-serif;
     border-radius: 5px;
     cursor: pointer;
@@ -15,4 +15,8 @@ button{
 button:hover{
     background-color: var(--gray);
     color:var(--orange);
+}
+.boton-reiniciar{
+    width: 260px;
+    height: 120px;
 }

@@ -20,5 +20,10 @@ html,body{
 }
 .contenedor-botones{
   display: grid;
-  grid-template-rows: repeat(2,fr);
+  grid-template-rows: repeat(2,1fr);
+}
+.botones{
+  display: grid;
+  grid-template-rows: repeat(2,1fr);
+  grid-template-columns: repeat(2,1fr);
 }
