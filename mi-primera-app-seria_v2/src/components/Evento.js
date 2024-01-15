@@ -16,7 +16,11 @@ function Evento() {
                 ¿Cuánto conoces de Python?
                 Aprende a trabajar en equipo resolviendo increíbles acertijo
                 ¡Anímate a ser parte de esta actividad!</p>
-                <Socials/>
+                <Socials
+                image1="facebook"
+                image2="twitter"
+                image3="youtube"
+                />
             </div>
         </div>
     );

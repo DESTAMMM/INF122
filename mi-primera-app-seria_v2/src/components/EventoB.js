@@ -11,7 +11,6 @@ function EventoB(props){
                 <p className="card-date">{props.dateLiteral}</p>
                 <p className="card-place">{props.placeLiteral}</p>
                 <p className="card-description">{props.description}</p>
-                
             </div>
         </div>
     );
