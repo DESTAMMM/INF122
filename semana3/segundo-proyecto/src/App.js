@@ -4,7 +4,7 @@ import Boton from './components/Boton';
 import { useState } from 'react';
 function App() {
   const[nroClicks, setNumClicks]=useState(0);
-  const[Show,setShow]=useState(true);
+  const[show,setShow]=useState(true);
   const reducir3=()=>{
     setNumClicks(nroClicks-3)
   }
@@ -23,11 +23,15 @@ function App() {
     console.log("reiniciar");
   }
   const mostrar=()=>{
+    setShow(!show);
+  }
+  const prod=()=>{
+    setNumClicks(nroClicks*3);
   }
   return (
     <div className="App">
       <div className="contenedor-principal">
-        <Contador nroClicks={nroClicks} />
+        <Contador nroClicks={nroClicks} mostrar={show} />
         <div className='contenedor-botones'>
           <div className='botones'>
             <Boton texto="-3" esBotonClick={true}
@@ -38,9 +42,13 @@ function App() {
               funcionClick={reducir1} />
             <Boton texto="+1" esBotonClick={true}
               funcionClick={click} />
+            <Boton texto="*3" esBotonClick={true}
+              funcionClick={prod}/>
           </div>
-          <Boton className="reset" texto="Reiniciar" esBotonClick={false}
+          <Boton texto="Reiniciar" esBotonClick={false}
             funcionClick={reiniciar} />
+          <Boton texto="Mostrar/Ocultar" esBotonClick={false}
+            funcionClick={mostrar} />
         </div>
       </div>
     </div>
