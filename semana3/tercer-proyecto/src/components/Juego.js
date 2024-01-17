@@ -2,6 +2,7 @@ import React from "react";
 import TableroB from "./TableroB";
 import Historial from "./Historial";
 import { useState } from "react";
+import '../styles/Juego.css';
 function Juego(){
     /*2da modificacion simbol pa reconocer =(2m) -->*/const[historial,setHistorial]=useState([
         {cuadros: Array(9).fill(null)},
