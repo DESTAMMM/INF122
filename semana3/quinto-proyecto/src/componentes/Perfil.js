@@ -2,7 +2,7 @@ import React from "react";
 import Boton from "./Boton";
 import '../styles/Perfil.css';
 function Perfil(){
-    const impri=(a)=>{
+    const imprim=(a)=>{
         console.log(a);
     }
     return(
@@ -22,7 +22,7 @@ function Perfil(){
                     <input type="text"></input>
             </div>
             <div className="botones">
-                <Boton text="Editar" funcionClick={()=>impri("Editar")}/>
+                <Boton text="Editar" funcionClick={()=>imprim("Editar")}/>
             </div>
         </div>
     );

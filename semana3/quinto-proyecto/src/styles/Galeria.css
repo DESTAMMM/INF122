@@ -1,0 +1,19 @@
+.cont-image{
+    display: flex;
+    flex-direction: column;
+    justify-content: initial;
+}
+.perf-infos{
+    display: flex;
+    flex-direction: row;
+    justify-content: initial;
+}
+.imagenes{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+.imagenes img{
+    max-width: 80px;
+    max-height: 80px;
+}
