@@ -1,0 +1,19 @@
+.container-perf{
+    display:grid;
+    grid-template-rows: auto 1fr auto;
+    align-items:center;
+}
+.perf{
+    display:flex;
+    flex-direction:column;
+}
+.text{
+    justify-content:initial;
+    text-align:initial;
+}
+.botones{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    text-align:center;
+}

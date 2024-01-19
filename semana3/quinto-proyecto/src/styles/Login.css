@@ -1,0 +1,20 @@
+.container{
+    display:grid;
+    grid-template-rows: auto 1fr auto;
+    align-items:center;
+}
+.datos{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+}
+.text{
+    justify-content:initial;
+    text-align:initial;
+}
+.botones{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    text-align:center;
+}
