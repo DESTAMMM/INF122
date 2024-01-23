@@ -1,5 +1,6 @@
-import './App.css';
-import Contador from './components/Contador';
+'use client';
+import style from './page.module.css';
+import Contador from './components/Contador.js';
 import Boton from './components/Boton';
 import { useState } from 'react';
 function App() {
@@ -29,11 +30,11 @@ function App() {
     setNumClicks(nroClicks*3);
   }
   return (
-    <div className="App">
-      <div className="contenedor-principal">
+    <div className={style.App}>
+      <div className={style["contenedor-principal"]}>
         <Contador nroClicks={nroClicks} mostrar={show} />
-        <div className='contenedor-botones'>
-          <div className='botones'>
+        <div className={style['contenedor-botones']}>
+          <div className={style.botones}>
             <Boton texto="-3" esBotonClick={true}
               funcionClick={reducir3} />
             <Boton texto="+3" esBotonClick={true}
