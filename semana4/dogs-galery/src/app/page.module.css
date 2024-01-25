@@ -105,7 +105,7 @@
 .center::before,
 .center::after {
   content: "";
-  left: 50%;
+  left: 0%;
   position: absolute;
   filter: blur(45px);
   transform: translateZ(0);
@@ -135,7 +135,7 @@
 /* Mobile */
 @media (max-width: 700px) {
   .content {
-    padding: 4rem;
+    padding: 1rem;
   }
 
   .grid {
@@ -181,7 +181,7 @@
   .description p {
     align-items: center;
     inset: 0 0 auto;
-    padding: 2rem 1rem 1.4rem;
+    padding: 21rem 11rem 1.4rem;
     border-radius: 0;
     border: none;
     border-bottom: 1px solid rgba(var(--callout-border-rgb), 0.25);
@@ -212,7 +212,7 @@
 /* Tablet and Smaller Desktop */
 @media (min-width: 701px) and (max-width: 1120px) {
   .grid {
-    grid-template-columns: repeat(2, 50%);
+    grid-template-columns: repeat(2, 700%);
   }
 }
 
@@ -228,7 +228,7 @@
 
 @keyframes rotate {
   from {
-    transform: rotate(360deg);
+    transform: rotate(480px);
   }
   to {
     transform: rotate(0deg);
